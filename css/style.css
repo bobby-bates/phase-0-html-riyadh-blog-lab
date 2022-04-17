@@ -6,7 +6,7 @@ html, body {
 }
 
 body {
-  background: url(../images/backgrounds/architecture.jpg) center no-repeat;
+  background: linear-gradient(to right, #f9fc45, #fd1d1d 25% 75%, #f9fc45);
   background-size: cover;
   background-attachment: fixed;
   font-family: Helvetica, Arial, sans-serif;
@@ -17,11 +17,13 @@ body {
   margin: 0 auto;
   width: 60%;
   padding-bottom: 40px;
+  
 }
 
 #content {
   padding: 20px;
   background: rgba(255,255,255,.85);
+  border-image: linear-gradient(blue, red) 27 / 1rem;
 }
 
 h1, h2 {
